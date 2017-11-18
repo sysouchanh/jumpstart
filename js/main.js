@@ -4,8 +4,6 @@ $(document).ready(function () {
         autoplaySpeed: 4000,
         arrows: false,
         fade: true,
-        pauseOnFocus: false,
-        pauseOnHover: false,
     });
     var prev = 0;
     var $window = $(window);
@@ -21,7 +19,7 @@ $(document).ready(function () {
         var scrolltop=$(window).scrollTop();
          $('.nav').toggleClass('hidden', scrolltop > scrol);
          scrol = scrolltop;
-         console.log('scrol');
+         console.log('scroll');
      })
 
 });
