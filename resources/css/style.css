@@ -1,0 +1,115 @@
+* {
+  font-family: 'Open Sans';
+  font-family: 14px;
+}
+
+.active {
+    color: #399bd1;
+}
+.nav {
+  display: flex;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+/*Jumbotron Formatting*/
+.jumbotron .container-fluid {
+    /*position: relative;*/
+    color: white;
+    text-align: center;
+    padding-top: 11.85rem;
+    max-width: 51.3rem;
+}
+.jumbotron h1 {
+    font-family: "Monoton", sans-serif;
+    font-size: 7.1rem;
+}
+.jumbotron {
+    padding-top: 10rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.relative-wrapper {
+    position: relative;
+    text-align: center;
+    top: -20rem;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    width: 11.4rem;
+    padding: 1.3rem 0;
+    margin-top: 2.8rem;
+}
+
+
+/*Bike Jumbotron*/
+.jumbotron-bike {
+    background-image: url("../images/jumbotron-bike.jpg");
+    height: 70rem;
+}
+.jumbotron-beer {
+    background-image: url("../images/jumbotron-beer.jpg");
+    height: 70rem;
+}
+.jumbotron-flowers {
+    background-image: url("../images/jumbotron-flowers.jpg");
+    height: 70rem;
+}
+.jumbotron-duffel {
+    background-image: url("../images/jumbotron-duffel.jpg");
+    height: 70rem;
+}
+
+
+
+/*Image Containers*/
+.image-container {
+    overflow: hidden;
+    max-width: 100%;
+}
+.image-container img {
+    opacity: 0.7;
+    max-width: 100%;
+    transition: transform .5s, opacity 0.5s;
+}
+.image-container img:hover {
+    opacity: 1;
+    transform: scale(1.3, 1.3)
+}
+
+
+/*Project Section*/
+.project {
+    margin-bottom: 5.85rem;
+}
+
+/*Help Section*/
+.help {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 5.2rem 0;
+}
+.help p {
+    max-width: 42rem;
+    margin: auto;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 768px){
+    .jumbotron h1{
+        font-size: 5.7rem;
+    }
+}
